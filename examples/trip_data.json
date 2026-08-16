@@ -1,0 +1,247 @@
+{
+  "destination": "Osaka / 大阪",
+  "days": 5,
+  "currency": "¥",
+  "dates": "2026-08-01 ~ 2026-08-05",
+  "travelers": "2 adults",
+  "budget_style": "Mid-range / comfortable",
+  "notes": "Bring a portable charger and an IC card (ICOCA/Suica).",
+  "daily_itinerary": [
+    {
+      "day": 1,
+      "slots": [
+        {
+          "slot": "08:30-09:00",
+          "activity": "Leave hotel in Namba",
+          "duration": "30min",
+          "transit": "walk",
+          "dining": "Breakfast: Kuromon Ichiba Market",
+          "tips": "Some stalls closed on Monday"
+        },
+        {
+          "slot": "09:30-12:30",
+          "activity": "Kuromon Market + Dotonbori street food crawl",
+          "duration": "3h",
+          "transit": "walk",
+          "dining": "Takoyaki, kushikatsu",
+          "tips": "Dotonbori is liveliest after dark; come back for the neon"
+        },
+        {
+          "slot": "13:00-14:00",
+          "activity": "Lunch: Dotonbori okonomiyaki",
+          "duration": "1h",
+          "transit": "walk",
+          "dining": "Okonomiyaki (Chibo or Mizuno)",
+          "tips": "Queues build after 12:30; arrive early"
+        },
+        {
+          "slot": "14:30-17:00",
+          "activity": "Shinsaibashi shopping arcade",
+          "duration": "2.5h",
+          "transit": "walk",
+          "dining": "Café break",
+          "tips": "Most tax-free counters need your passport"
+        },
+        {
+          "slot": "18:00-20:00",
+          "activity": "Dotonbori Glico sign + river walk (night view)",
+          "duration": "2h",
+          "transit": "walk",
+          "dining": "Dinner: crab or ramen",
+          "tips": "Ebisu Bridge gets crowded at sunset"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "slots": [
+        {
+          "slot": "08:30-09:00",
+          "activity": "Leave hotel",
+          "duration": "30min",
+          "transit": "subway",
+          "dining": "Breakfast at hotel",
+          "tips": "Rush hour until ~9:00; avoid if possible"
+        },
+        {
+          "slot": "09:30-12:00",
+          "activity": "Osaka Castle (main keep + park)",
+          "duration": "2.5h",
+          "transit": "subway",
+          "dining": "",
+          "tips": "Buy tickets online to skip the queue"
+        },
+        {
+          "slot": "12:30-13:30",
+          "activity": "Lunch near Morinomiya",
+          "duration": "1h",
+          "transit": "walk",
+          "dining": "Kitsune udon",
+          "tips": ""
+        },
+        {
+          "slot": "14:00-16:00",
+          "activity": "Osaka Museum of History (indoor/shaded)",
+          "duration": "2h",
+          "transit": "walk",
+          "dining": "",
+          "tips": "Closed Tuesday"
+        },
+        {
+          "slot": "18:00-20:00",
+          "activity": "Umeda Sky Building floating garden (sunset)",
+          "duration": "2h",
+          "transit": "subway",
+          "dining": "Dinner in Umeda underground mall",
+          "tips": "Go ~40min before sunset for the view"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "slots": [
+        {
+          "slot": "08:00-08:30",
+          "activity": "Leave hotel",
+          "duration": "30min",
+          "transit": "train",
+          "dining": "Breakfast: train-station bento",
+          "tips": ""
+        },
+        {
+          "slot": "09:30-12:00",
+          "activity": "Nara Park + Todai-ji (day trip)",
+          "duration": "2.5h",
+          "transit": "train (Kintetsu ~40min)",
+          "dining": "",
+          "tips": "Deer biscuits sold in park; deer can be pushy"
+        },
+        {
+          "slot": "12:30-13:30",
+          "activity": "Lunch: Nara",
+          "duration": "1h",
+          "transit": "walk",
+          "dining": "Kakinoha-zushi (persimmon-leaf sushi)",
+          "tips": ""
+        },
+        {
+          "slot": "14:00-16:30",
+          "activity": "Kasuga Taisha shrine",
+          "duration": "2.5h",
+          "transit": "walk",
+          "dining": "",
+          "tips": "Lantern-lined path is best late afternoon"
+        },
+        {
+          "slot": "17:00-19:00",
+          "activity": "Return to Osaka, dinner in Namba",
+          "duration": "2h",
+          "transit": "train",
+          "dining": "Dinner: yakiniku",
+          "tips": ""
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "slots": [
+        {
+          "slot": "08:30-09:00",
+          "activity": "Leave hotel",
+          "duration": "30min",
+          "transit": "train",
+          "dining": "Breakfast: hotel",
+          "tips": ""
+        },
+        {
+          "slot": "10:00-13:00",
+          "activity": "Kyoto: Fushimi Inari Taisha (day trip)",
+          "duration": "3h",
+          "transit": "train (JR ~45min)",
+          "dining": "",
+          "tips": "Climb early to beat the crowds; keep the upper path quiet"
+        },
+        {
+          "slot": "13:30-14:30",
+          "activity": "Lunch: Gion area",
+          "duration": "1h",
+          "transit": "train + walk",
+          "dining": "Matcha soba",
+          "tips": ""
+        },
+        {
+          "slot": "15:00-17:00",
+          "activity": "Kiyomizu-dera + Higashiyama lanes",
+          "duration": "2h",
+          "transit": "walk",
+          "dining": "",
+          "tips": "Main hall partly scaffolded; check ahead"
+        },
+        {
+          "slot": "18:00-20:00",
+          "activity": "Return to Osaka",
+          "duration": "2h",
+          "transit": "train",
+          "dining": "Dinner: conveyor-belt sushi",
+          "tips": ""
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "slots": [
+        {
+          "slot": "08:30-09:00",
+          "activity": "Check out, leave hotel",
+          "duration": "30min",
+          "transit": "walk",
+          "dining": "Breakfast: hotel",
+          "tips": ""
+        },
+        {
+          "slot": "10:00-12:00",
+          "activity": "Last-minute souvenir run in Namba",
+          "duration": "2h",
+          "transit": "walk",
+          "dining": "",
+          "tips": "Keep luggage at hotel or a coin locker"
+        },
+        {
+          "slot": "12:30-13:30",
+          "activity": "Final lunch",
+          "duration": "1h",
+          "transit": "walk",
+          "dining": "Kaiten sushi",
+          "tips": ""
+        },
+        {
+          "slot": "14:30-16:00",
+          "activity": "Train to Kansai Airport (KIX)",
+          "duration": "1.5h",
+          "transit": "train (Nankai ~45min)",
+          "dining": "",
+          "tips": "Arrive 3h before an international flight"
+        }
+      ]
+    }
+  ],
+  "budget": [
+    { "category": "Transport", "item": "Round-trip flight", "estimated": 3000, "actual": null, "notes": "tax included" },
+    { "category": "Transport", "item": "Trains + IC card top-ups (Nara/Kyoto/KIX)", "estimated": 1200, "actual": null, "notes": "" },
+    { "category": "Lodging", "item": "Hotel x4 nights (Namba)", "estimated": 2400, "actual": null, "notes": "double room" },
+    { "category": "Tickets", "item": "Osaka Castle + museum + Umeda Sky", "estimated": 400, "actual": null, "notes": "" },
+    { "category": "Dining", "item": "Meals x5 days", "estimated": 2500, "actual": null, "notes": "mid-range" },
+    { "category": "Contingency", "item": "Buffer / souvenirs", "estimated": 1500, "actual": null, "notes": "20% slack" }
+  ],
+  "checklist": [
+    { "category": "Documents", "item": "Passport / ID", "status": "", "notes": "check expiry > 6 months" },
+    { "category": "Documents", "item": "Hotel + flight confirmations", "status": "", "notes": "save offline" },
+    { "category": "Clothing", "item": "Comfortable walking shoes", "status": "", "notes": "" },
+    { "category": "Clothing", "item": "Light rain jacket", "status": "", "notes": "August is humid" },
+    { "category": "Medicine", "item": "Personal meds + motion-sickness pills", "status": "", "notes": "" },
+    { "category": "Electronics", "item": "Portable charger + adapters", "status": "", "notes": "" },
+    { "category": "Electronics", "item": "IC card (ICOCA/Suica) or e-money", "status": "", "notes": "" },
+    { "category": "Apps", "item": "Google Maps / Japan Travel by NAVITIME", "status": "", "notes": "" },
+    { "category": "Apps", "item": "Translate app (offline pack)", "status": "", "notes": "" }
+  ]
+}
