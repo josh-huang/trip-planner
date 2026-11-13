@@ -114,6 +114,20 @@ def test_string_amount_renders_without_breaking():
     assert wb["Budget"].cell(row=2, column=3).value == "3000/person"
 
 
+def test_empty_budget_exports_zero_without_circular_formulas(tmp_path):
+    from openpyxl import load_workbook
+
+    trip = dict(SAMPLE, budget=[])
+    assert bte._validate_trip(trip) == []
+    wb = _build(trip)
+    output = tmp_path / "empty-budget.xlsx"
+    wb.save(output)
+    restored = load_workbook(output, data_only=True)
+    assert restored["Budget"].max_row == 2
+    assert restored["Budget"]["C2"].value == 0
+    assert restored["Budget"]["D2"].value == 0
+
+
 def test_checklist_default_status():
     wb = _build(SAMPLE)
     ws = wb["Checklist"]
