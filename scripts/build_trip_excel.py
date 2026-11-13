@@ -299,8 +299,10 @@ def _build_budget(wb: Workbook, trip: Dict[str, Any]) -> None:
     currency = str(trip.get("currency", "¥"))
     last_data_row = ws.max_row
     total_row = last_data_row + 1
-    _append_row(ws, ["合计 (Total)", "", f"=SUM(C2:C{last_data_row})",
-                     f"=SUM(D2:D{last_data_row})", ""])
+    # With no budget rows, C2:C1 would include the total cell itself.
+    estimated_total = f"=SUM(C2:C{last_data_row})" if last_data_row >= 2 else 0
+    actual_total = f"=SUM(D2:D{last_data_row})" if last_data_row >= 2 else 0
+    _append_row(ws, ["合计 (Total)", "", estimated_total, actual_total, ""])
 
     _style_header(ws, len(headers))
     _style_body(ws, {1: CENTER, 3: CENTER, 4: CENTER})
